@@ -19,19 +19,19 @@ java -jar generator.jar guia.md ./proyecto-a-generar
 ### 3. Ejemplo de cómo ejecutar en modo debug
 
 ```bash
-java -jar target/markdown-project-generator-1.0.1.jar guides/pruebas-para-el-desarrollo-de-software-guide-v1.0.1.md --debug
+java -jar target/markdown-project-generator-1.0.0.jar guides/pruebas-para-el-desarrollo-de-software-guide-v1.0.1.md --debug
 ```
 
 ### 4. Ejemplo de cómo ejecutar en modo interactivo
 
 ```bash
-java -jar target/markdown-project-generator-1.0.1.jar guides/pruebas-para-el-desarrollo-de-software-guide-v1.0.1.md ../pruebas-para-el-desarrollo-de-software-guide
+java -jar target/markdown-project-generator-1.0.0.jar guides/pruebas-para-el-desarrollo-de-software-guide-v1.0.1.md ../pruebas-para-el-desarrollo-de-software-guide
 ```
 
 ### 5. Ejemplo de cómo ejecutar TODO TODO TODO en modo automático
 
 ```bash
-java -jar target/markdown-project-generator-1.0.1.jar guides/pruebas-para-el-desarrollo-de-software-guide-v1.0.1.md ../pruebas-para-el-desarrollo-de-software-guide --auto
+java -jar target/markdown-project-generator-1.0.0.jar guides/pruebas-para-el-desarrollo-de-software-guide-v1.0.1.md ../pruebas-para-el-desarrollo-de-software-guide --auto
 ```
 
 
@@ -39,17 +39,17 @@ java -jar target/markdown-project-generator-1.0.1.jar guides/pruebas-para-el-des
 
 ```bash
 # Con README (por defecto)
-java -jar target/markdown-project-generator-1.0.1.jar guides/pruebas-para-el-desarrollo-de-software-guide-v1.0.1.md ../pruebas-para-el-desarrollo-de-software-guide --auto
+java -jar target/markdown-project-generator-1.0.0.jar guides/pruebas-para-el-desarrollo-de-software-guide-v1.0.1.md ../pruebas-para-el-desarrollo-de-software-guide --auto
 ```
 
 ```bash
 # Sin README
-java -jar target/markdown-project-generator-1.0.1.jar guides/pruebas-para-el-desarrollo-de-software-guide-v1.0.1.md ../pruebas-para-el-desarrollo-de-software-guide --auto --no-readme
+java -jar target/markdown-project-generator-1.0.0.jar guides/pruebas-para-el-desarrollo-de-software-guide-v1.0.1.md ../pruebas-para-el-desarrollo-de-software-guide --auto --no-readme
 ```
 
 ```bash
 # Modo interactivo (pregunta si quieres generar README al final)
-java -jar target/markdown-project-generator-1.0.1.jar guides/pruebas-para-el-desarrollo-de-software-guide-v1.0.1.md ../pruebas-para-el-desarrollo-de-software-guide
+java -jar target/markdown-project-generator-1.0.0.jar guides/pruebas-para-el-desarrollo-de-software-guide-v1.0.1.md ../pruebas-para-el-desarrollo-de-software-guide
 
 ```
 
@@ -131,7 +131,7 @@ cd markdown-project-generator
 mvn clean package -q
 
 # Crear alias
-echo 'alias mdgen="java -jar '$PWD'/target/markdown-project-generator-1.0.1.jar"' >> ~/.bashrc
+echo 'alias mdgen="java -jar '$PWD'/target/markdown-project-generator-1.0.0.jar"' >> ~/.bashrc
 
 echo "✅ Instalación completa!"
 echo "   Uso: mdgen <archivo.md> [directorio-salida]"
