@@ -1275,7 +1275,7 @@ public abstract class ClienteRepositoryContract {
 #### Paso 2: Test Concreto con TestContainers
 
 ```java
-// 📁 src/test/java/com/tienda/features/procesarcompra/JpaClienteRepositoryTest.java
+// 📁 src/test/java/com/tienda/features/procesarcompra/JpaClienteRepositoryContractTest.java
 package com.tienda.features.procesarcompra;
 
 import jakarta.persistence.EntityManager;
@@ -2019,7 +2019,7 @@ src/
     │       └── procesarcompra/                  ← 🧪 TDD
     │           ├── ProcesarCompraUseCaseTest.java   ← Collaboration
     │           ├── ClienteRepositoryContract.java   ← Contract base
-    │           └── JpaClienteRepositoryTest.java    ← Contract impl
+    │           └── JpaClienteRepositoryContractTest.java    ← Contract impl
     │
     └── resources/
         └── application-test.yml
